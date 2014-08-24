@@ -8,7 +8,8 @@ LazyLoad: yes
 Author: Mark van der Loo
 Description: A couple of utilities for sorting, translating data to json, d3-viz and so on and so forth.
 Version: 0.0.1
-Depends: R (>= 3.0.0), whisker
+Depends: R (>= 3.0.0)
+Imports: methods, whisker
 URL: https://github.com/markvanderloo/murf
 Date: 2013-04-28
 Suggests: testthat
