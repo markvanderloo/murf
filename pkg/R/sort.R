@@ -28,3 +28,11 @@ plog <- function(x,base=exp(1)){
 }
 
 
+#' Capitalize every word in a string.
+#' 
+#' @param x \code{character}
+#' 
+#' @export 
+capitalize <- function(x) gsub("(^|[[:space:]])([[:alpha:]])", "\\1\\U\\2", x, perl=TRUE)
+
+
